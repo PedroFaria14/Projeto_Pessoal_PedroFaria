@@ -21,7 +21,8 @@ function App() {
       <BrowserRouter>
         <Navbar menuOpen={menuOpen} toggleMenu={toggleMenu} />
         <div className='App_Card'>
-    
+    <h1>Bem-vindo ao meu portfólio</h1>
+  <h3> Aqui você encontrará uma coleção dos meus projetos e trabalhos, que refletem minha paixão e dedicação pelo desenvolvimento de software.</h3>
 </div>
   <div className={`container ${menuOpen ? 'menuOpen' : ''}`} id='container' style={{ marginTop: '0' }}>
           <Routes>
